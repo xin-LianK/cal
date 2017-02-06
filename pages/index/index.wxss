@@ -1,0 +1,32 @@
+.screen{
+    height: 320rpx;
+    background: black;
+    font-size:48pt;
+    color: white;
+    position: relative; 
+}
+.result{
+    position: absolute;
+    bottom: 10rpx;
+    right: 10rpx;
+}
+.container::after{
+    content: '';
+    clear: both;
+    display: block;
+    background: black;
+}
+.block{
+    box-sizing:border-box;
+    width: 25%;
+    text-align: center;
+    line-height: 163rpx;
+    float: left;
+    height: 163rpx;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: #ccc;
+}
+.block.kuan{
+    width: 50%;
+}

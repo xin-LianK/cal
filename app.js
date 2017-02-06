@@ -1,0 +1,15 @@
+App({
+    onLaunch:function(){
+        console.log(1)
+    },
+    onShow:function(){
+        console.log(2)
+    },
+    onHide:function(){
+        console.log(3)
+    },
+    user:{
+        name:"常玉凯",
+        age:"110"
+    }
+})
